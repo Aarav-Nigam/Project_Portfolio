@@ -1,0 +1,59 @@
+#navbar{
+    position: fixed;
+    top:0cm;
+    background-color: #ed5564;
+    width:100%;
+    height:15%;
+}
+#tags{
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    text-align: center;
+    list-style: none;
+    flex-direction: row;
+    font-weight: bold;
+    font-size: larger;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#welcome-section{
+    display: flex;
+    font-family:cursive;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height:100vh;
+    width: 100%;
+    padding: 0;
+    border-width: 0;
+    background-color: #ffce54;
+}
+#profile{
+    width:100%;
+    background-color: black;
+    color: whitesmoke;
+}
+ul {
+    list-style-position: inside;
+  }
+.projects{
+    display: flex;
+    align-items: center;
+
+}
+.project-tile{
+    width: 100%;
+    border-radius: 20%;
+    margin:auto;
+}
+iframe{
+    width: 100vw;
+    height: 100vh;
+    border-radius:20% ;
+}
+@media (max-width: 28.75em) {
+    html {
+      font-size: 65%;
+    }
+  }
